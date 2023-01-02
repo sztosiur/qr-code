@@ -1,0 +1,52 @@
+:root{
+    --white:  hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayblue: hsl(220, 15%, 55%);
+    --darkblue:hsl(218, 44%, 22%);
+    font-size: 62.5%;
+    background-color: var(--lightgray);
+    font-family: 'Outfit', sans-serif;
+
+}
+.container{
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width:fit-content;
+    background-color: var(--white);
+    padding:1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.qr{
+    max-width: 25rem;
+    border-radius: 1rem;
+}
+.text{
+    text-align: center;
+    max-width: 24rem;
+    margin:0 auto;
+}
+
+.text p{
+    max-width: 25rem;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width:375px) {
+    
+    
+     .text {
+        max-width: 25rem;
+        margin:0 auto;
+    }
+   .qr{
+    max-width:30rem;
+   }
+    
+}
